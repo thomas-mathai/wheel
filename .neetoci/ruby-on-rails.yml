@@ -1,5 +1,6 @@
 ---
 plan_slug: standard-2
+fail_fast: false
 triggers:
 - event: branch
   branch_name: main
@@ -13,5 +14,5 @@ commands:
 - bundle install --deployment --path vendor/bundle
 - cache store
 - bundle exec rake db:setup
+- artifact push job lib
 - bundle exec rake test
-- artifact push job coverage
