@@ -18,11 +18,13 @@ system.
 After `yarn` is installed, install the Node.js and Rails dependencies and also
 seed the database, by running:
 
+
 ```bash
 ./bin/setup
 ```
 
 Start the server by executing following command.
+
 
 ```bash
 bundle exec rails server -p 3000
