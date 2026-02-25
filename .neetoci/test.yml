@@ -1,0 +1,7 @@
+---
+plan_slug: beginner
+triggers:
+- event: branch
+  branch: ''
+commands:
+- checkout
