@@ -1,0 +1,7 @@
+---
+plan_slug: beginner
+triggers:
+- event: pull_request_labeled
+  label: test123
+commands:
+- checkout
